@@ -4,51 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>goit-markup-hw-02</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">WebStudio</a>
-        <a href="#">Estudio</a>
-        <a href="#">Portafolio</a>
+      <nav class="nav-links">
+        <a class="beginning" href="#">WebStudio</a>
+        <a href="index.html">Estudio</a>
+        <a href="portfolio.html">Portafolio</a>
         <a href="#">contactos</a>
       </nav>
-      <section>
+      <section class="contact">
         <a href="#">info@devstudio.com</a>
         <a href="#">+52 55 5529 6000</a>
       </section>
     </header>
     <main>
-      <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <button type="button">Solicite nuestro servicio</button>
-      <section>
+      <section class="title">
+        <h1 class="main-title">soluciones eficaces para su negocio</h1>
+        <button type="button">Solicite nuestro servicio</button>
+      </section>
+      <section class="soft-skills">
         <ul>
           <li>
-            <h4>Atención a los detalles</h4>
-            <p>
+            <h4 class="subtitle">Atención a los detalles</h4>
+            <p class="text">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
           <li>
-            <h4>Puntualidad</h4>
-            <p>
+            <h4 class="subtitle">Puntualidad</h4>
+            <p class="text">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
             </p>
           </li>
           <li>
-            <h4>Planificación</h4>
-            <p>
+            <h4 class="subtitle">Planificación</h4>
+            <p class="text">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
           <li>
-            <h4>Tecnologia Moderna</h4>
-            <p>
+            <h4 class="subtitle">Tecnologia Moderna</h4>
+            <p class="text">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -56,7 +63,7 @@
         </ul>
       </section>
       <section>
-        <h2>A qué nos dedicamos</h2>
+        <h2 class="work">A qué nos dedicamos</h2>
         <ul>
           <li>
             <img
@@ -95,7 +102,9 @@
                 width="270px"
                 height="260"
               />
-              <figcaption>Andrés Cubo Diseñador de Productos</figcaption>
+              <figcaption>
+                Andrés Cubo <span>Diseñador de Productos</span>
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -106,7 +115,9 @@
                 width="270px"
                 height="260"
               />
-              <figcaption>Carla Palacios Desarrolladora Frontend</figcaption>
+              <figcaption>
+                Carla Palacios <span>Desarrolladora Frontend</span>
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -117,7 +128,7 @@
                 width="270px"
                 height="260"
               />
-              <figcaption>Mario Dorado Marketing</figcaption>
+              <figcaption>Mario Dorado <span>Marketing</span></figcaption>
             </figure>
           </li>
           <li>
@@ -128,14 +139,14 @@
                 width="270px"
                 height="260"
               />
-              <figcaption>Pablo Mijangos Diseñador IU</figcaption>
+              <figcaption>Pablo Mijangos <span>Diseñador IU</span></figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="#">WebStudio</a>
+      <a class="beginning" href="#">WebStudio</a>
       <address>
         <ul>
           <li>
